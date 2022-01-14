@@ -2,7 +2,7 @@
 
 This is a practice about data crawler, AWS S3 and EC2, and docker.
 
-The purpose is to implement a python application that can retrieve Sydney real estate information from Domain.com, and upload data to AWS S3. 
+The purpose is to implement a python application that can retrieve the listing summary about Sydney real estate from Domain.com, and upload data to AWS S3. 
 
 The python application is deployed to Docker and can be run in AWS EC2.
 
@@ -11,6 +11,7 @@ The python application is deployed to Docker and can be run in AWS EC2.
 
 - [Background](#background)
 - [Prerequisite](#prerequisite)
+- [Instruction](#instruction)
 
 
 ## Background
@@ -21,8 +22,12 @@ Endpoint https://developer.domain.com.au/docs/v1/apis/pkg_properties_locations/r
 
 ## Prerequisite
 
-- Create Domain Developer Account
+- Create Domain Developer Account https://developer.domain.com.au/ 
 - Install Docker Desktop
-- Create AWS Account
+- Create AWS Account, get credential pem file.
 
-## Steps
+## Instruction
+### 1. creat a ec2 instance, then connect to ec2 instance
+```
+    ssh -i <credentail pem file> ec2-user@<ec2 instance public ip>
+```
