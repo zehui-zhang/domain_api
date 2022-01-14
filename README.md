@@ -2,9 +2,9 @@
 
 This is a practice about data crawler, AWS S3 and EC2, and docker.
 
-This product can retrieve Sydney real estate information from Domain.com, and upload them to AWS S3. 
+The purpose is to implement a python application that can retrieve Sydney real estate information from Domain.com, and upload data to AWS S3. 
 
-This product is deployed to Docker and can be run in AWS EC2.
+The python application is deployed to Docker and can be run in AWS EC2.
 
 
 ## Table of Contents
