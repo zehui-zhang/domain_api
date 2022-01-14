@@ -25,3 +25,4 @@ Endpoint https://developer.domain.com.au/docs/v1/apis/pkg_properties_locations/r
 - Install Docker Desktop
 - Create AWS Account
 
+## Steps
