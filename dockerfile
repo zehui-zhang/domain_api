@@ -6,4 +6,4 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
-CMD ["python3","domain_api.py"]
+CMD ["python3","data_crawler.py"]
