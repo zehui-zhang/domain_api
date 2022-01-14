@@ -128,4 +128,5 @@ docker exec -it python-docker:v1 /bin/sh
 
 ## References
 Docker run command https://www.runoob.com/docker/docker-run-command.html 
+
 Running Docker Containers On AWS EC2 https://medium.com/bb-tutorials-and-thoughts/running-docker-containers-on-aws-ec2-9b17add53646 
