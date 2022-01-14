@@ -1,3 +1,35 @@
+'''
+This app will retrieve the listing summaries corresponding to the sales result of Sydney from Domain.com API.
+https://developer.domain.com.au/docs/v1/apis/pkg_properties_locations/references/salesresults_listings
+
+The data will be upload to AWS S3 bucket called "domain-sydney"
+
+The prerequisites are
+1. create a Domain Developer Account in order to get credentials. in this case, I choose OAtuth 2.0 (you can replace with your credentail instead)
+2. create AWS account, then create a S3 bucket called "domain-sydeny" (you can replace with your bucket name)
+
+Functions:
+1. main()
+    This function will get api access token, and retrieve data about Sydney sales results from Domain.com API, 
+    then get current time, and save data as a csv file locally, finally upload the file to S3 bucket.
+
+2. get_api_token()
+    This function will use credential to get the token that access API
+
+3. get_sales_results(access_token)
+    This function will use access token to retrieve data from Domain.com API
+
+4. get_current_time()
+    This function will generate the current time, so we can know when the data has been retrieved.
+
+5. save_as_csv(result,timestamp)
+    This function will convert data to csv file. 
+    The file name will include timestamp(current time)
+
+6. upload_to_s3(file_name)
+    This functino will upload the local file to S3 bucket, in this case, the bucket is "domain-sydney".
+'''
+
 import requests
 import pandas as pd
 from datetime import datetime
