@@ -12,7 +12,7 @@ The python application is deployed to Docker and can be run in AWS EC2.
 - [Background](#background)
 - [Prerequisite](#prerequisite)
 - [Instruction](#instruction)
-- [Further Steps](#furthersteps)
+- [Further_Steps](#further_steps)
 - [Reference](#reference)
 
 
@@ -123,15 +123,15 @@ docker exec -it python-docker:v1 /bin/sh
 ```
 
 
-## Further Steps
-### 1.Upload data to AWS RDS
-### 2.ETL
-### 3. Docker Upgrade
-### 4. CICD
+## Further_Steps
+1. Upload data to AWS RDS
+2. ETL
+3. Docker Upgrade
+4. CICD
 
 
 
-## References
+## Reference
 Docker run command https://www.runoob.com/docker/docker-run-command.html 
 
 Running Docker Containers On AWS EC2 https://medium.com/bb-tutorials-and-thoughts/running-docker-containers-on-aws-ec2-9b17add53646 
