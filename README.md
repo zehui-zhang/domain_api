@@ -124,6 +124,11 @@ docker exec -it python-docker:v1 /bin/sh
 
 
 ## Further Steps
+### 1.Upload data to AWS RDS
+### 2.ETL
+### 3. Docker Upgrade
+### 4. CICD
+
 
 
 ## References
