@@ -12,7 +12,7 @@ The python application is deployed to Docker and can be run in AWS EC2.
 - [Background](#background)
 - [Prerequisite](#prerequisite)
 - [Instruction](#instruction)
-- [Further Steps](#further steps)
+- [Further Steps](#furthersteps)
 - [Reference](#reference)
 
 
